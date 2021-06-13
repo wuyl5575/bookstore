@@ -7,7 +7,7 @@
 
 	<%--静态包含 base标签 css样式 jQuery文件--%>
 	<%@include file="/pages/common/head.jsp"%>
-
+<%--555555555555555555555555--%>
 </head>
 <body>
 		<div id="login_header">

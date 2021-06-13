@@ -30,7 +30,7 @@
 				$("#code_img").click(function () {
 					// 在事件响应的 function 函数中有一个 this 对象。这个 this 对象，是当前正在响应事件的 dom 对象
 					// src 属性表示验证码 img 标签的 图片路径。它可读，可写
-					this.src = "${basePath}kaptcha.jpg" + new Date();
+					this.src = "${basePath}kaptcha.jpg" ;
 				});
 				// 给注册绑定单击事件
 				$("#sub_btn").click(function () {
